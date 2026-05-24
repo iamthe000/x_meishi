@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter名刺メーカー",
+  "version": "1.0",
+  "description": "Twitterのプロフィールを企業名刺風に変換します。",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "*://x.com/*",
+    "*://twitter.com/*"
+  ]
+}
